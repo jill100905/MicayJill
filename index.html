@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web Profesional</title>
+    <link rel="stylesheet" href="CSS/estiloindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" type="image/x-icon" href="image/logo.ico">
+</head>
+
+<body>
+
+    <div class="social-bar">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <header>
+        <div class="top-bar">
+            <div class="logo">DISEÑO WEB PROFESIONAL</div>
+            <div class="menu-toggle">&#9776;</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn-curso">Curso</a>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <h1>Diseño y Desarrollo Web</h1>
+                    <h2>Lenguaje de Etiquetas HTML y CSS</h2>
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del
+                        texto de un sitio mientras que mira su diseño.</p>
+                    <a class="btn-explorar" href="#">Explorar más Información</a>
+                </div>
+                <div class="hero-image">
+                    <img src="image/robot1.jpg" alt="Robot">
+                </div>
+            </div>
+        </section>
+
+        <section class="tabla-html">
+            <h2>Uso de Tablas en HTML</h2>
+            <table>
+                <tr>
+                    <td>
+                        <h3>24</h3>
+                        <p>Páginas</p>
+                    </td>
+                    <td>
+                        <h3>12</h3>
+                        <p>HTML</p>
+                    </td>
+                    <td>
+                        <h3>6</h3>
+                        <p>CSS</p>
+                    </td>
+                </tr>
+            </table>
+            <a class="btn-ver" href="#">Ver Aplicaciones</a>
+        </section>
+
+        <section class="grid-imagenes">
+            <h2>Creando Grid <span>Para las Imágenes</span></h2>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido.</p>
+            <div class="grid-container">
+                <div class="grid-item"><img src="image/robot2.jpg" alt="Robot"></div>
+                <div class="grid-item"><img src="image/robot3.jpg" alt="Robot"></div>
+                <div class="grid-item"><img src="image/robot4.jpg" alt="Robot"></div>
+                <div class="grid-item"><img src="image/robot5.jpg" alt="Robot"></div>
+                <div class="grid-item large"><img src="image/robot1.jpg" alt="Robot"></div>
+            </div>
+            <a class="btn-ver" href="#">Ver Tutoriales</a>
+        </section>
+
+        <div class="container">
+            <div class="left">
+                <!-- La imagen de fondo se establecerá mediante CSS -->
+            </div>
+            <div class="right">
+                <form>
+                    <h2>Ingresa tus Datos</h2>
+                    <p>Nos pondremos en contacto contigo</p>
+                    <button type="button" class="google-btn">
+                        <i class="fab fa-google"></i> Rellena tus datos con Google
+                    </button>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="mail@abc.com" required>
+                    <label for="name">Nombre y Apellidos</label>
+                    <input type="text" id="name" name="name" placeholder="Nombre y Apellidos" required>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="promotions" name="promotions">
+                        <label for="promotions">Acepto envío de promociones</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Datos</button>
+                    <p class="facebook">Completar tus datos con: <a href="#">cuenta de facebook</a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-item social">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A</p>
+            <div class="social-icons-footer">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+        <div class="footer-item sitemap">
+            <h3>MAPA DE SITIO</h3>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Aplicaciones</a></li>
+                <li><a href="#">Tutoriales</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-item evaluation">
+            <h3>EVALUACIÓN PERMANENTE 04</h3>
+            <p>Diseñadora Micaela Flores Huillca</p>
+            <p>Diseñadora Jill Huerta Soto</p>
+        </div>
+        <div class="footer-item subscribe">
+            <h3>SUSCRIBETE A <span>NUESTRO CURSO</span></h3>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido.</p>
+            <form>
+                <input type="email" placeholder="Tu email">
+                <button type="submit">ENVIAR DATOS</button>
+            </form>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('nav ul').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+
+</html>
