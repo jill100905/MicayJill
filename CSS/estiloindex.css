@@ -531,7 +531,7 @@ input[type="text"] {
     }
 
     .grid-item.large {
-        grid-column: 1 / 4;
+        grid-column: 1 / 2;
         grid-row: auto;
     }
 
